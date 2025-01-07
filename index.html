@@ -15,22 +15,14 @@
         let p = document.getElementById("p")
 
         let de = 1
-
-        function f1(){
-            p.innerText = de
-            de = 2
-            xd()
-        }
-        function f2(){
-            p.innerText = de
-            de = 1
-            xd()
-        }
+        
         function xd(){
             if (de === 1){
-                f1()
+                p.innerText = de
+                de = 1
             } else {
-                f2()
+                p.innerText = de
+                de = 2
             }
         }
 
