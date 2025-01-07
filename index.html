@@ -1,2 +1,40 @@
-<h1>Mi primer Git Hub</h1>
-<p>xd pana</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mi primer Git Hub</h1>
+    <p>xd pana</p>
+    <button onclick="xd()">click</button>
+    <p id="p"></p>
+    <script>
+        let p = document.getElementById("p")
+
+        let de = 1
+
+        function f1(){
+            p.innerText = de
+            de = 2
+            xd()
+        }
+        function f2(){
+            p.innerText = de
+            de = 1
+            xd()
+        }
+        function xd(){
+            if (de === 1){
+                f1()
+            } else {
+                f2()
+            }
+        }
+
+
+    </script>
+</body>
+</html>
