@@ -13,7 +13,7 @@ document.body.addEventListener("keydown", (event) => {
             let bh = Math.round(Math.random() * 256);
             document.getElementById("h").style.color = `rgb(${rh}, ${gh}, ${bh})`;
     
-        }, 200);
+        }, 500);
     };
 
 });
