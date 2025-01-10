@@ -8,7 +8,7 @@ document.body.addEventListener("keydown", (event) => {
             let b = Math.round(Math.random() * 256)
             document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
     
-        }, 1000)
+        }, 500)
     }
 
 })
